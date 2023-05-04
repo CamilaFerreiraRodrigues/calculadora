@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+
+    background-image: linear-gradient(rgb(8, 8, 8), rgb(207, 50, 76));
+    height: 100vh;/*vh para deixar todo o fundo */
+    color: rgb(245, 241, 243);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; /*para centralizar h1*/
+}
+
+.calculadora{
+    position: absolute; /*para ocupar apenas o espaco da própria div*/
+    background: rgba(0, 0, 0, 0.5); /*AlPHA para dexar trasparente*/
+    /*para deixar a div no meio */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /* transform é usada para aplicar transformações a um elemento, como rotação, escala, inclinação e deslocamento*/
+    border-radius: 15px;
+    padding: 15px; /*espacamento entre os botoes*/
+}
+
+/*COMO TODOS OS BOTÕES TEM A MESMA FORMATAÇÃO, LA NO HTML COLOCAREMOS A MESMA CLASSE PARA TODOS OS BOTÕES*/
+
+.botao{
+    height: 50px;
+    width: 50px;
+    font-size: 25px; /*tamnho da letra*/
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    border : none;
+    margin: 3px; /* deixar os espaçamenotos entres os botÕes iguais */
+}
+/*PARA QUANDO O MOUSE FOR EM CIMA MUDAR A COR PARA*/
+.botao:hover{
+    background-color: rgb(95, 91, 91);
+}
+/*ARRUMAR O BOTAO "=" E O "0" LA NO HTML MESMO */
+
+#resultado{
+    background-color: aliceblue;
+    width: 226px;
+    height: 30px;
+    margin: 5px;
+    
+    font-size: 25px;
+    color: black;
+    text-align: right; /*para o texto ficar à esquerda*/
+    padding: auto;
+}
+
+footer{
+    background-color: rgb(207, 50, 76);
+    text-align: center;
+    top: 75%;
+}
