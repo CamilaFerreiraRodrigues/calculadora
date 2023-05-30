@@ -1,5 +1,8 @@
 # calculadora
 
+![image](https://github.com/CamilaFerreiraRodrigues/calculadora/assets/131890075/173fc45b-0361-4e02-8224-a743c956e56d)
+
+
 Neste projeto, desenvolvi uma calculadora utilizando HTML e CSS, com um design personalizado. 
 A ideia por trás desse projeto foi criar uma interface intuitiva e atraente para uma calculadora funcional.
 
